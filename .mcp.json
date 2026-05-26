@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+        "gbrain": {
+            "command": "/Users/lubee/.bun/bin/gbrain",
+            "args": [
+                "serve"
+            ],
+            "env": {
+                "GBRAIN_HOME": "/Users/lubee/brains/personal"
+            }
+        }
+    }
+}
