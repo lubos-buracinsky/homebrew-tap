@@ -1,12 +1,12 @@
 {
     "mcpServers": {
         "gbrain": {
-            "command": "/Users/lubee/.bun/bin/gbrain",
+            "command": "gbrain",
             "args": [
                 "serve"
             ],
             "env": {
-                "GBRAIN_HOME": "/Users/lubee/brains/personal"
+                "GBRAIN_HOME": "${PERSONAL_BRAIN_HOME:-/Users/lubee/brains/personal}"
             }
         }
     }
